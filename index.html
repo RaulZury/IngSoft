@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link utf-8 rel="stylesheet" type="text/css" href="C:\Users\ortiz\IngSoft\OOD.css">
+	<title>Ortiz Ortiz David</title>
+</head>
+<body>
+   <h2>Primero tenemos que entrar a git bash
+comandos
+<br>git init<br> 
+<br>git status, nos indica en que status esta cada directorio. 
+git add, mandar a Staging area
+git commit<br>
+primero ver en que directorio estamos con pwd
+cuando estas programando en Windows, las rutas cambian cuando envias un programa a distrbucion.<br>
+si vamos a programar app sobre direcciones apache, java, etc es mejor linux.
+instalar herramientas del cliente de git, para descar el git bash. 
+despues creamos un directorio con mkdir y el nombre del archivo, luego cd para irnos a la ruta, despues creamos el mkdir ejemplo 1 y con cd nos vamos a la ruta del mismo.<br>
+<br>Para limpiar pantalla clear<br>
+<br>ls -la mostrar el contenido de mi carpeta
+git init para crear un directorio git en la ruta que tenemos 
+el sig comando ocupamos git status, nos dice que estamos en el master pero no hay nada.<br>
+utilizamos el comando touch para crear un archivo vacio, en este caso fue touch index.html e touch master.css
+luego usamos el comando git add y agregamos index.html<br>
+<br>Otra vez vemos el status con git status 
+luego agregamos master.css
+y vemos el status<br>
+cuando los archivos los agregamos estan en el estado Stage
+despues tenemos que decir a la git quien eres, con el comando git config{list, user.email, user.name}<br>
+<br>utilizamos el comando git config --list<br>
+<br>luego ingresamos el correo con git config --global user.email "correo"
+luego ingresamos el correo con git config --global user.name "nombre usuario"
+luego utilizamos el comando git commit -m "contenido "<br>
+<br>Despues utilizamos git config --list
+con el comando git log vemos el id de nuestro directorio, luego nos muestra detalles de quien lo creo y a que hora, ver los diferentes status o cambios que se le haga a los snapshot
+tenemos que agregar contenido a los archivos de html en sublime text
+cuando acabemos el codigo tenemos que hacer un respaldo en la terminal 
+ponemos el comando git status y nos mostrara que hubo algunos cambios.
+luego ponemos el comando git add con el nombre, en este caso es index.html
+ponemos de nuevo git status<br>
+<br>git commit -m "Se agrega codigo basico al index"
+luego hacemos cambios en el master.css
+con git commit -am "Se agrega un color rojo"  la m es para darle el mensaje
+luego ponemos el git log, el git commit es otra forma de agregar los archivos pero sin pasar por el staged, directamente al commit 
+luego entramos a la cuenta de git hub para subir el repositorio
+en git en la parte derecha en el boton de un + creamos un nuevo repositorio, en este caso se llamara isgit
+tenemos que meter esta linea de comando en el bash el comando, git remote add origin "https://github.com/david029/isgit.git"
+luego utilizamos el comando git push origin "nombre de la raiz, que en este caso es master" sin comillas
+para bajar todo el directorio tenemos que ocupar el comando git clone <url del repositorio><br>
+</h2>
+</body>
+</html>
